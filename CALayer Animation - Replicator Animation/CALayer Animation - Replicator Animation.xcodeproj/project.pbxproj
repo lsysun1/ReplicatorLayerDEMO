@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD96E5E51BD53CCF00F459C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD96E5E41BD53CCF00F459C9 /* main.m */; };
+		BD96E5E81BD53CCF00F459C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD96E5E71BD53CCF00F459C9 /* AppDelegate.m */; };
+		BD96E5EB1BD53CCF00F459C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD96E5EA1BD53CCF00F459C9 /* ViewController.m */; };
+		BD96E5EE1BD53CCF00F459C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD96E5EC1BD53CCF00F459C9 /* Main.storyboard */; };
+		BD96E5F01BD53CCF00F459C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD96E5EF1BD53CCF00F459C9 /* Assets.xcassets */; };
+		BD96E5F31BD53CCF00F459C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD96E5F11BD53CCF00F459C9 /* LaunchScreen.storyboard */; };
+		BD96E5FE1BD53CCF00F459C9 /* CALayer_Animation___Replicator_AnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD96E5FD1BD53CCF00F459C9 /* CALayer_Animation___Replicator_AnimationTests.m */; };
+		BD96E6091BD53CCF00F459C9 /* CALayer_Animation___Replicator_AnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD96E6081BD53CCF00F459C9 /* CALayer_Animation___Replicator_AnimationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD96E5FA1BD53CCF00F459C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD96E5D81BD53CCF00F459C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD96E5DF1BD53CCF00F459C9;
+			remoteInfo = "CALayer Animation - Replicator Animation";
+		};
+		BD96E6051BD53CCF00F459C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD96E5D81BD53CCF00F459C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD96E5DF1BD53CCF00F459C9;
+			remoteInfo = "CALayer Animation - Replicator Animation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD96E5E01BD53CCF00F459C9 /* CALayer Animation - Replicator Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CALayer Animation - Replicator Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD96E5E41BD53CCF00F459C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD96E5E61BD53CCF00F459C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD96E5E71BD53CCF00F459C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD96E5E91BD53CCF00F459C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD96E5EA1BD53CCF00F459C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD96E5ED1BD53CCF00F459C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD96E5EF1BD53CCF00F459C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD96E5F21BD53CCF00F459C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD96E5F41BD53CCF00F459C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD96E5F91BD53CCF00F459C9 /* CALayer Animation - Replicator AnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CALayer Animation - Replicator AnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD96E5FD1BD53CCF00F459C9 /* CALayer_Animation___Replicator_AnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer_Animation___Replicator_AnimationTests.m"; sourceTree = "<group>"; };
+		BD96E5FF1BD53CCF00F459C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD96E6041BD53CCF00F459C9 /* CALayer Animation - Replicator AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CALayer Animation - Replicator AnimationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD96E6081BD53CCF00F459C9 /* CALayer_Animation___Replicator_AnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer_Animation___Replicator_AnimationUITests.m"; sourceTree = "<group>"; };
+		BD96E60A1BD53CCF00F459C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD96E5DD1BD53CCF00F459C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD96E5F61BD53CCF00F459C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD96E6011BD53CCF00F459C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD96E5D71BD53CCF00F459C9 = {
+			isa = PBXGroup;
+			children = (
+				BD96E5E21BD53CCF00F459C9 /* CALayer Animation - Replicator Animation */,
+				BD96E5FC1BD53CCF00F459C9 /* CALayer Animation - Replicator AnimationTests */,
+				BD96E6071BD53CCF00F459C9 /* CALayer Animation - Replicator AnimationUITests */,
+				BD96E5E11BD53CCF00F459C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD96E5E11BD53CCF00F459C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD96E5E01BD53CCF00F459C9 /* CALayer Animation - Replicator Animation.app */,
+				BD96E5F91BD53CCF00F459C9 /* CALayer Animation - Replicator AnimationTests.xctest */,
+				BD96E6041BD53CCF00F459C9 /* CALayer Animation - Replicator AnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD96E5E21BD53CCF00F459C9 /* CALayer Animation - Replicator Animation */ = {
+			isa = PBXGroup;
+			children = (
+				BD96E5E61BD53CCF00F459C9 /* AppDelegate.h */,
+				BD96E5E71BD53CCF00F459C9 /* AppDelegate.m */,
+				BD96E5E91BD53CCF00F459C9 /* ViewController.h */,
+				BD96E5EA1BD53CCF00F459C9 /* ViewController.m */,
+				BD96E5EC1BD53CCF00F459C9 /* Main.storyboard */,
+				BD96E5EF1BD53CCF00F459C9 /* Assets.xcassets */,
+				BD96E5F11BD53CCF00F459C9 /* LaunchScreen.storyboard */,
+				BD96E5F41BD53CCF00F459C9 /* Info.plist */,
+				BD96E5E31BD53CCF00F459C9 /* Supporting Files */,
+			);
+			path = "CALayer Animation - Replicator Animation";
+			sourceTree = "<group>";
+		};
+		BD96E5E31BD53CCF00F459C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD96E5E41BD53CCF00F459C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD96E5FC1BD53CCF00F459C9 /* CALayer Animation - Replicator AnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD96E5FD1BD53CCF00F459C9 /* CALayer_Animation___Replicator_AnimationTests.m */,
+				BD96E5FF1BD53CCF00F459C9 /* Info.plist */,
+			);
+			path = "CALayer Animation - Replicator AnimationTests";
+			sourceTree = "<group>";
+		};
+		BD96E6071BD53CCF00F459C9 /* CALayer Animation - Replicator AnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD96E6081BD53CCF00F459C9 /* CALayer_Animation___Replicator_AnimationUITests.m */,
+				BD96E60A1BD53CCF00F459C9 /* Info.plist */,
+			);
+			path = "CALayer Animation - Replicator AnimationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD96E5DF1BD53CCF00F459C9 /* CALayer Animation - Replicator Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD96E60D1BD53CCF00F459C9 /* Build configuration list for PBXNativeTarget "CALayer Animation - Replicator Animation" */;
+			buildPhases = (
+				BD96E5DC1BD53CCF00F459C9 /* Sources */,
+				BD96E5DD1BD53CCF00F459C9 /* Frameworks */,
+				BD96E5DE1BD53CCF00F459C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CALayer Animation - Replicator Animation";
+			productName = "CALayer Animation - Replicator Animation";
+			productReference = BD96E5E01BD53CCF00F459C9 /* CALayer Animation - Replicator Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD96E5F81BD53CCF00F459C9 /* CALayer Animation - Replicator AnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD96E6101BD53CCF00F459C9 /* Build configuration list for PBXNativeTarget "CALayer Animation - Replicator AnimationTests" */;
+			buildPhases = (
+				BD96E5F51BD53CCF00F459C9 /* Sources */,
+				BD96E5F61BD53CCF00F459C9 /* Frameworks */,
+				BD96E5F71BD53CCF00F459C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD96E5FB1BD53CCF00F459C9 /* PBXTargetDependency */,
+			);
+			name = "CALayer Animation - Replicator AnimationTests";
+			productName = "CALayer Animation - Replicator AnimationTests";
+			productReference = BD96E5F91BD53CCF00F459C9 /* CALayer Animation - Replicator AnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD96E6031BD53CCF00F459C9 /* CALayer Animation - Replicator AnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD96E6131BD53CCF00F459C9 /* Build configuration list for PBXNativeTarget "CALayer Animation - Replicator AnimationUITests" */;
+			buildPhases = (
+				BD96E6001BD53CCF00F459C9 /* Sources */,
+				BD96E6011BD53CCF00F459C9 /* Frameworks */,
+				BD96E6021BD53CCF00F459C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD96E6061BD53CCF00F459C9 /* PBXTargetDependency */,
+			);
+			name = "CALayer Animation - Replicator AnimationUITests";
+			productName = "CALayer Animation - Replicator AnimationUITests";
+			productReference = BD96E6041BD53CCF00F459C9 /* CALayer Animation - Replicator AnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD96E5D81BD53CCF00F459C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "李松玉";
+				TargetAttributes = {
+					BD96E5DF1BD53CCF00F459C9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					BD96E5F81BD53CCF00F459C9 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BD96E5DF1BD53CCF00F459C9;
+					};
+					BD96E6031BD53CCF00F459C9 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BD96E5DF1BD53CCF00F459C9;
+					};
+				};
+			};
+			buildConfigurationList = BD96E5DB1BD53CCF00F459C9 /* Build configuration list for PBXProject "CALayer Animation - Replicator Animation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD96E5D71BD53CCF00F459C9;
+			productRefGroup = BD96E5E11BD53CCF00F459C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD96E5DF1BD53CCF00F459C9 /* CALayer Animation - Replicator Animation */,
+				BD96E5F81BD53CCF00F459C9 /* CALayer Animation - Replicator AnimationTests */,
+				BD96E6031BD53CCF00F459C9 /* CALayer Animation - Replicator AnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD96E5DE1BD53CCF00F459C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD96E5F31BD53CCF00F459C9 /* LaunchScreen.storyboard in Resources */,
+				BD96E5F01BD53CCF00F459C9 /* Assets.xcassets in Resources */,
+				BD96E5EE1BD53CCF00F459C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD96E5F71BD53CCF00F459C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD96E6021BD53CCF00F459C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD96E5DC1BD53CCF00F459C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD96E5EB1BD53CCF00F459C9 /* ViewController.m in Sources */,
+				BD96E5E81BD53CCF00F459C9 /* AppDelegate.m in Sources */,
+				BD96E5E51BD53CCF00F459C9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD96E5F51BD53CCF00F459C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD96E5FE1BD53CCF00F459C9 /* CALayer_Animation___Replicator_AnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD96E6001BD53CCF00F459C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD96E6091BD53CCF00F459C9 /* CALayer_Animation___Replicator_AnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD96E5FB1BD53CCF00F459C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD96E5DF1BD53CCF00F459C9 /* CALayer Animation - Replicator Animation */;
+			targetProxy = BD96E5FA1BD53CCF00F459C9 /* PBXContainerItemProxy */;
+		};
+		BD96E6061BD53CCF00F459C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD96E5DF1BD53CCF00F459C9 /* CALayer Animation - Replicator Animation */;
+			targetProxy = BD96E6051BD53CCF00F459C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD96E5EC1BD53CCF00F459C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD96E5ED1BD53CCF00F459C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD96E5F11BD53CCF00F459C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD96E5F21BD53CCF00F459C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD96E60B1BD53CCF00F459C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD96E60C1BD53CCF00F459C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD96E60E1BD53CCF00F459C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CALayer Animation - Replicator Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lsy.CALayer-Animation---Replicator-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD96E60F1BD53CCF00F459C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CALayer Animation - Replicator Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lsy.CALayer-Animation---Replicator-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD96E6111BD53CCF00F459C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CALayer Animation - Replicator AnimationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lsy.CALayer-Animation---Replicator-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CALayer Animation - Replicator Animation.app/CALayer Animation - Replicator Animation";
+			};
+			name = Debug;
+		};
+		BD96E6121BD53CCF00F459C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CALayer Animation - Replicator AnimationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lsy.CALayer-Animation---Replicator-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CALayer Animation - Replicator Animation.app/CALayer Animation - Replicator Animation";
+			};
+			name = Release;
+		};
+		BD96E6141BD53CCF00F459C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CALayer Animation - Replicator AnimationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lsy.CALayer-Animation---Replicator-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CALayer Animation - Replicator Animation";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BD96E6151BD53CCF00F459C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CALayer Animation - Replicator AnimationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lsy.CALayer-Animation---Replicator-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CALayer Animation - Replicator Animation";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD96E5DB1BD53CCF00F459C9 /* Build configuration list for PBXProject "CALayer Animation - Replicator Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD96E60B1BD53CCF00F459C9 /* Debug */,
+				BD96E60C1BD53CCF00F459C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD96E60D1BD53CCF00F459C9 /* Build configuration list for PBXNativeTarget "CALayer Animation - Replicator Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD96E60E1BD53CCF00F459C9 /* Debug */,
+				BD96E60F1BD53CCF00F459C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD96E6101BD53CCF00F459C9 /* Build configuration list for PBXNativeTarget "CALayer Animation - Replicator AnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD96E6111BD53CCF00F459C9 /* Debug */,
+				BD96E6121BD53CCF00F459C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD96E6131BD53CCF00F459C9 /* Build configuration list for PBXNativeTarget "CALayer Animation - Replicator AnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD96E6141BD53CCF00F459C9 /* Debug */,
+				BD96E6151BD53CCF00F459C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD96E5D81BD53CCF00F459C9 /* Project object */;
+}
